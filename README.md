@@ -8,6 +8,7 @@
 Для работы автотестов нужно скачать драйвер соответствующий Вашему браузеру и его версии, и поместить его в папку в корне проекта.
 
 Для запуска автотестов необходимо в Terminal перейти в папку tests проекта и ввести команду:
+
 python -m pytest -v --driver Chrome --driver-path chromedriver/chromedriver.exe test_rostelekom.py
 
 Запись chromedriver/chromedriver.exe означает, что для автотестов использовался браузер GoogleChrome, и его драйвер находится в папке chromedriver,
